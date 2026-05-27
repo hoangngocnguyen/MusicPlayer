@@ -1,0 +1,1 @@
+Đang phát nhạc, click vào song nó load lại từ đầu (k nên)

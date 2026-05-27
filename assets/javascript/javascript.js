@@ -362,8 +362,8 @@ let app = {
                 }
 
                 // Xử lí màu
-                var value =  progress.value / progress.max * 100 ;
-                progress.style.background = 'linear-gradient(to right,var(--primary-color) 0%,var(--primary-color) ' + value + '%, #fff ' + value + '%, white 100%)';
+                
+                progress.style.background = 'var value =  progress.value / progress.max * 100 ;linear-gradient(to right,var(--primary-color) 0%,var(--primary-color) ' + value + '%, #fff ' + value + '%, white 100%)';
                 
                 // Xử lí cập nhật thời gian hiện tại
                 app.setUpTimeFormat(currentTimeElement, audio.currentTime)
@@ -417,8 +417,6 @@ let app = {
                 e.stopPropagation() 
             })
         })
-
-
     
 
         // When volume change
@@ -469,7 +467,6 @@ let app = {
 
         // Margin top cho playlist
         var dashboardHeight = $('.dashboard').height();
-        console.log(dashboardHeight)
         $('.playlist').css('margin-top', `${dashboardHeight + 16}px`)
     }
 }
